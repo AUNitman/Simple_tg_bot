@@ -1,0 +1,163 @@
+{
+  "cities": {
+    "moscow": {
+      "name": "Москва",
+      "hotels": [
+        {
+          "id": "hotel_msc_001",
+          "name": "Гранд Отель Москва",
+          "stars": 5,
+          "price_per_night": 8500,
+          "address": "ул. Тверская, 15",
+          "amenities": ["Wi-Fi", "Бассейн", "Спа", "Ресторан", "Парковка"],
+          "room_types": [
+            {"type": "Стандарт", "price": 8500, "capacity": 2},
+            {"type": "Люкс", "price": 15000, "capacity": 2},
+            {"type": "Семейный", "price": 12000, "capacity": 4}
+          ],
+          "description": "Роскошный отель в центре Москвы с видом на Кремль",
+          "rating": 4.8,
+          "free_cancellation": true
+        },
+        {
+          "id": "hotel_msc_002",
+          "name": "Бизнес Отель Арбат",
+          "stars": 4,
+          "price_per_night": 5500,
+          "address": "Новый Арбат, 32",
+          "amenities": ["Wi-Fi", "Завтрак", "Конференц-зал", "Парковка"],
+          "room_types": [
+            {"type": "Стандарт", "price": 5500, "capacity": 2},
+            {"type": "Делюкс", "price": 7500, "capacity": 2}
+          ],
+          "description": "Современный бизнес-отель на Арбате",
+          "rating": 4.5,
+          "free_cancellation": true
+        },
+        {
+          "id": "hotel_msc_003",
+          "name": "Эконом Хостел Центр",
+          "stars": 3,
+          "price_per_night": 2500,
+          "address": "ул. Маросейка, 7",
+          "amenities": ["Wi-Fi", "Кухня", "Прачечная"],
+          "room_types": [
+            {"type": "Койко-место", "price": 1200, "capacity": 1},
+            {"type": "Двухместный", "price": 2500, "capacity": 2}
+          ],
+          "description": "Уютный хостел в центре города",
+          "rating": 4.2,
+          "free_cancellation": false
+        }
+      ]
+    },
+    "saint_petersburg": {
+      "name": "Санкт-Петербург",
+      "hotels": [
+        {
+          "id": "hotel_spb_001",
+          "name": "Невский Палас",
+          "stars": 5,
+          "price_per_night": 9500,
+          "address": "Невский проспект, 57",
+          "amenities": ["Wi-Fi", "Бассейн", "Спа", "Ресторан", "Фитнес-центр"],
+          "room_types": [
+            {"type": "Стандарт", "price": 9500, "capacity": 2},
+            {"type": "Люкс", "price": 18000, "capacity": 2},
+            {"type": "Президентский", "price": 35000, "capacity": 4}
+          ],
+          "description": "Элегантный отель на Невском проспекте",
+          "rating": 4.9,
+          "free_cancellation": true
+        },
+        {
+          "id": "hotel_spb_002",
+          "name": "Петроградский Дворик",
+          "stars": 4,
+          "price_per_night": 6000,
+          "address": "Петроградская наб., 12",
+          "amenities": ["Wi-Fi", "Завтрак", "Парковка", "Терраса"],
+          "room_types": [
+            {"type": "Стандарт", "price": 6000, "capacity": 2},
+            {"type": "Улучшенный", "price": 8500, "capacity": 3}
+          ],
+          "description": "Уютный отель на Петроградской стороне",
+          "rating": 4.6,
+          "free_cancellation": true
+        },
+        {
+          "id": "hotel_spb_003",
+          "name": "Мини-отель Эрмитаж",
+          "stars": 3,
+          "price_per_night": 3500,
+          "address": "ул. Миллионная, 23",
+          "amenities": ["Wi-Fi", "Завтрак"],
+          "room_types": [
+            {"type": "Эконом", "price": 3000, "capacity": 2},
+            {"type": "Стандарт", "price": 3500, "capacity": 2}
+          ],
+          "description": "Компактный отель рядом с Эрмитажем",
+          "rating": 4.3,
+          "free_cancellation": false
+        }
+      ]
+    },
+    "sochi": {
+      "name": "Сочи",
+      "hotels": [
+        {
+          "id": "hotel_sochi_001",
+          "name": "Ривьера Резорт",
+          "stars": 5,
+          "price_per_night": 12000,
+          "address": "Курортный проспект, 50",
+          "amenities": ["Wi-Fi", "Пляж", "Бассейн", "Спа", "Ресторан", "Аквапарк"],
+          "room_types": [
+            {"type": "Стандарт", "price": 12000, "capacity": 2},
+            {"type": "Семейный", "price": 18000, "capacity": 4},
+            {"type": "Вилла", "price": 45000, "capacity": 6}
+          ],
+          "description": "Роскошный курортный отель на берегу моря",
+          "rating": 4.9,
+          "free_cancellation": true
+        },
+        {
+          "id": "hotel_sochi_002",
+          "name": "Морской Бриз",
+          "stars": 4,
+          "price_per_night": 7500,
+          "address": "ул. Приморская, 15",
+          "amenities": ["Wi-Fi", "Пляж", "Бассейн", "Завтрак", "Парковка"],
+          "room_types": [
+            {"type": "Стандарт", "price": 7500, "capacity": 2},
+            {"type": "С видом на море", "price": 10000, "capacity": 2}
+          ],
+          "description": "Комфортный отель в 100 метрах от пляжа",
+          "rating": 4.5,
+          "free_cancellation": true
+        },
+        {
+          "id": "hotel_sochi_003",
+          "name": "Гостевой Дом Солнечный",
+          "stars": 3,
+          "price_per_night": 4000,
+          "address": "ул. Виноградная, 8",
+          "amenities": ["Wi-Fi", "Кухня", "Терраса", "Барбекю"],
+          "room_types": [
+            {"type": "Эконом", "price": 3500, "capacity": 2},
+            {"type": "Стандарт", "price": 4000, "capacity": 3}
+          ],
+          "description": "Уютный гостевой дом в тихом районе",
+          "rating": 4.4,
+          "free_cancellation": false
+        }
+      ]
+    }
+  },
+  "price_ranges": {
+    "budget": {"min": 0, "max": 3500, "label": "Эконом"},
+    "medium": {"min": 3501, "max": 8000, "label": "Средний"},
+    "premium": {"min": 8001, "max": 15000, "label": "Премиум"},
+    "luxury": {"min": 15001, "max": 999999, "label": "Люкс"}
+  }
+}
